@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A STORY OF US</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/logo.png">
+</head>
+<body>
+    <div class="button">
+        <button id="scrollBtn"> <i data-lucide="chevron-up"></i></button>
+    </div>
+    <section id="login">
+    <div class="login-container">
+
+        <h1><i data-lucide="heart-plus" width="50" height="50"></i></h1>
+        <p>Halo Sayang</p>
+
+        <form id="login-form">
+
+            <input type="text" id="username" placeholder="Username" required>
+
+            <input type="password" id="password" placeholder="Password" required>
+
+            <button type="submit">LOGIN</button>
+
+            <p id="login-message"></p>
+
+        </form>
+
+    </div>
+</section>
+    <div class="content" hidden>
+        <nav class="navbar-floating">
+            <a href="#home" data-label="Home">
+        <i data-lucide="house"></i>
+    </a>
+    
+    <a href="#timeline" data-label="Timeline">
+        <i data-lucide="clock"></i>
+    </a>
+
+    <a href="#memories" data-label="Memories">
+        <i data-lucide="images"></i>
+    </a>
+    
+    <!-- <a href="#about" data-label="About Us">
+        <i data-lucide="user-round"></i> -->
+
+    <a href="#" id="themeBtn" data-label="Dark Mode">
+        <i data-lucide="moon"></i>
+    </a>
+    
+</nav>
+<section id="home" class="home">
+    <div class="home-container reveal">
+        
+        <div class="home-image">
+            <img src="assets/images/image.jpeg" alt="Foto profil">
+        </div>
+        
+        <div class="home-content">
+            <p class="greeting" id="greeting"></p>
+            
+            <h1 id="typing"></h1>
+            
+            <p class="description">
+               Engga terasa ya, kita sudah sampai di titik ini. dua tahun bukan waktu yang sebentar untuk saling mengenal, memahami, bertahan, dan melewati banyak hal bersama,terima kasih karena masih memilih aku sampai hari ini,
+Thank you for being part of my life. semoga dua tahun ini bukan menjadi akhir dari cerita kita, melainkan awal dari lebih banyak tahun yang akan kita lewati bersama.
+            </p>
+        </div>
+        
+    </div>
+</section>
+<section id="timeline" class="timeline">
+    <div class="header-timeline reveal">
+    <h2 id="typing2"></h2>
+    </div>
+    <div class="timeline-container reveal">
+        
+        <div class="timeline-item reveal">
+            <div class="timeline-image">
+                <img src="assets/images/image1.jpeg" alt="">
+            </div>
+
+            <div class="timeline-content">
+                <h2>First Meet</h2>
+                <p>
+                   kitaa di rumah Yuri sambil mam dimsum dan fotoo pakee laptop 
+                </p>
+            </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+            <div class="timeline-image">
+                <img src="assets/images/image3.jpeg" alt="">
+            </div>
+            
+            <div class="timeline-content">
+                <h2>One Year</h2>
+                <p>
+                    kita merayakan nyaa dengan mukbang rechees satu ekorr terus pulangnya jalan jalan keliling kota, dan ambill bungaaaaa buattt satu tahunyaaa dan tukar hadiaahhh
+                </p>
+            </div>
+        </div>
+        
+        <div class="timeline-item reveal">
+            <div class="timeline-image">
+                <img src="assets/images/image4.jpeg" alt="">
+            </div>
+            
+            <div class="timeline-content">
+                <h2>Last Meet Before LDR</h2>
+                <p>
+                  kitaa makan di sejadii teruss photo booth, terus lanjut kita main Timezone jadi yang pertama dan terakhir sebelum ldr habis tu kita ke bazar
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    
+</section>
+<section id="memories">
+      <h2 id="typing1"></h2>
+    <p>Beberapa momen yang menjadi bagian dari perjalanan kami.</p>
+
+    <div class="memory-container reveal">
+        <div class="memory-card reveal">
+            <img src="assets/images/image5.jpeg" alt="">
+            <h3>Last Meet Before LDR</h3>
+            <p>Pertemuan Sebelum LDR di Bandara.</p>
+        </div>
+
+        <div class="memory-card reveal">
+            <img src="assets/images/image6.jpeg" alt="">
+            <h3>Photoboth</h3>
+            <p>Photoboth Kita.</p>
+        </div>
+        <div class="memory-card reveal">
+            <img src="assets/images/image7.jpeg" alt="">
+            <h3>Random Day</h3>
+            <p>Cuma Bersenang-senang.</p>
+        </div>
+    </div>
+</section>
+<section id="about"></section>
+</div>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    lucide.createIcons();
+</script>
+</body>
+</html>
