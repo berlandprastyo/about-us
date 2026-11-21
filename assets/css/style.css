@@ -103,7 +103,7 @@ opacity: 1;
     padding: 40px 35px;
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 
     background: rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(20px);
@@ -124,7 +124,7 @@ opacity: 1;
 }
 
 .login-container > p {
-    color: #c5c5c5;
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
 }
 
@@ -137,10 +137,7 @@ opacity: 1;
 #login-form input {
     width: 100%;
     padding: 14px 16px;
-
-    color: white;
     font-size: 14px;
-
     background: rgba(255, 255, 255, 0.12);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
@@ -150,7 +147,7 @@ opacity: 1;
 }
 
 #login-form input::placeholder {
-    color: #c5c5c5;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 #login-form input:focus {
