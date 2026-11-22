@@ -123,6 +123,21 @@ button.addEventListener("click", () => {
     });
 });
 const navbar = document.querySelector(".navbar-floating");
+let idleTimer;
+navbar.addEventListener("click", () => {
+const isCompact = navbar.classList.contains("compact");
+
+    if (isCompact) {
+        event.preventDefault();
+
+        navbar.classList.remove("compact");
+    }
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => {
+        navbar.classList.add("compact");
+    }, 3000);
+
+});
 
 let lastScroll = 0;
 const threshold = 10;
